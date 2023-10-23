@@ -5,7 +5,8 @@ function TodoItem (props) {
     <div onClick={()=>{
         props.onChecked(props.id)
     }}>
-    <li>{props.text} </li>
+    <li>{props.text}</li>
+    <button className='dlt'>Delete</button>
     </div>
   )
 }
